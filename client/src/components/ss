@@ -1,0 +1,7 @@
+getServerData('mongodb+srv://abdufrdi:1020304050SA@cluster2.dktiveo.mongodb.net/api/questions', (data, error) => {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log(data);
+  }
+});
